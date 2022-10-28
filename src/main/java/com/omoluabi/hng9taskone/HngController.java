@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 // rest controller class
-@CrossOrigin(origins = "*")
 @RestController
 public class HngController {
 
@@ -15,6 +14,7 @@ public class HngController {
     private DetailsStructure detailsStructure;
 
     // get endpoint
+    @CrossOrigin(origins = "*")
     @GetMapping("/firsttask")
     public DetailsStructure one(DetailsStructure detailsStructure) {
 
