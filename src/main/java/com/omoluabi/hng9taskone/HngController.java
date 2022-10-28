@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 // rest controller class
-@CrossOrigin(origins = "https://myhngtaskone.herokuapp.com")
+@CrossOrigin(origins = "*")
 @RestController
 public class HngController {
 
