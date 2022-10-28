@@ -1,10 +1,12 @@
 package com.omoluabi.hng9taskone;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 // rest controller class
+@CrossOrigin(origins = "https://myhngtaskone.herokuapp.com")
 @RestController
 public class HngController {
 
