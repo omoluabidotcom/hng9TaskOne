@@ -1,6 +1,5 @@
 package com.omoluabi.hng9taskone;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
 import org.springframework.stereotype.Component;
 
 // get endpoint return type
